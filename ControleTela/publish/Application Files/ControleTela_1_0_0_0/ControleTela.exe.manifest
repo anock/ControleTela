@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ControleTela.exe" version="1.0.0.0" publicKeyToken="72ce88896c4a6d6a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ControleTela" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ControleTela.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ControleTela.exe" size="231432">
+      <assemblyIdentity name="ControleTela" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uqDY81QJ9wyLc7NXLXVIdLjK1oI73QJTtxJc7qEShv4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="353280">
+      <assemblyIdentity name="MetroFramework" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wsEtMbSETineMVlPyWMqNypVNjHeCgoEyK+RZo43z0k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Design.dll" size="16896">
+      <assemblyIdentity name="MetroFramework.Design" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CkqWCC4ldn5GlwM2SbFsdqZS4SB1eizsq4CSrQ1xa2U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Fonts.dll" size="672256">
+      <assemblyIdentity name="MetroFramework.Fonts" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yEOGmqylE1wtRylphfNcccqK9EMSiNBNSBxORsyT7iY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Controle.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gIz0utafdPcuJQBMR3r46/hx3Qk03NlFbT0kTXg2bIo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Controle_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rai08/Vx5Iv2zj6rp6NGN1t320PfxHM5MR562VRF78g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ControleTela.exe.config" size="553">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dwC0Co5JL5MQgVss3vilcABt+F6rWYfsnzdB6jK6c+o=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-A8QCQP1\AnockShadow" issuerKeyHash="3559c7f358b79548eb3360a398c533c3f08c4e62" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>h6pCPrtg5MUDsbXVM2S2y9c4WTE+ayBcue8ESeHDKIk=</DigestValue></Reference></SignedInfo><SignatureValue>RB1dP4GAzTIo1RK3fkBTTOBzgZHj3hLLR/6Ys+Qg3xBlRsaMUddmoxQgyC2WCClyllZ7vrMvUHQljRMkwARSjsKiq/3epc/uGh8Sq1LKXM3L5MZnwKS3Wpp2E9fH3cJ9HrAwcj1s6ijh0ieV+COf9kVio9LXTlYYdM6ps4qkYxg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wamzfB2njDGm/zN9jqLjJiHpn9isKiU4HcXe5MBkZwqpLy7bxhWhFqjfLh1n1PbIW3bgNIhWCbrJRkgh3Zh9PMXV/HimTcLR4IvUo8nQqGuvsmHNrelsEGtnNzpIyCvcv1G8OvLsK5KQiwfrfv/En1xZmsBSkjWE6Ti2/Y1cstU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8928c3e14904efb95c206b3e315938d7cbb66433d5b5b103c5e460bb3e42aa87" Description="" Url=""><as:assemblyIdentity name="ControleTela.exe" version="1.0.0.0" publicKeyToken="72ce88896c4a6d6a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-A8QCQP1\AnockShadow</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MfvIkJnoJkYlHbhwjtySmP9BkMBsgbtKamo4XU8lc40=</DigestValue></Reference></SignedInfo><SignatureValue>B8H6085AihKEgCOrAOIL0DH+W9AjMzTdWD1iD+T25Tg3429doX62IT5mekIZq4oH53MYT7MPzaqpH68+gTh/gbRRRuT5nzVhLwHvJgHhg/BMGLhyq99cr0yBHaZqdW7P6BGsa6Al0HDeyM6CbWN1F0WlNWHTo0WLfWu8wkANqwY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wamzfB2njDGm/zN9jqLjJiHpn9isKiU4HcXe5MBkZwqpLy7bxhWhFqjfLh1n1PbIW3bgNIhWCbrJRkgh3Zh9PMXV/HimTcLR4IvUo8nQqGuvsmHNrelsEGtnNzpIyCvcv1G8OvLsK5KQiwfrfv/En1xZmsBSkjWE6Ti2/Y1cstU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQHU4hsxilTIJHlla5O4SUxDANBgkqhkiG9w0BAQsFADBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtAEEAOABRAEMAUQBQADEAXABBAG4AbwBjAGsAUwBoAGEAZABvAHcwHhcNMTgwNzA5MDAxMjQzWhcNMTkwNzA5MDYxMjQzWjBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtAEEAOABRAEMAUQBQADEAXABBAG4AbwBjAGsAUwBoAGEAZABvAHcwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMGps3wdp4wxpv8zfY6i4yYh6Z/YrColOB3F3uTAZGcKqS8u28YVoRao3y4dZ9T2yFt24DSIVgm6yUZIId2YfTzF1fx4pk3C0eCL1KPJ0Khrr7Jhza3pbBBrZzc6SMgr3L9RvDry7CuSkIsH637/xJ9cWZrAUpI1hOk4tv2NXLLVAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAj4zz59AAj+N1UwMdGcLPpRm1Kre7ejAmIGCCBgITWWJ4xdOS8voHZqBVPGms32wsJssc9T5PZvELYJX46VmMkjG3tur0mkHcASupa1EbZ0GQ0MnX+3yKjnmriZk+BiHQcpOFGGIID80/GqCU3fPhmVMdYaQJ33NIhE0T+iuhIqY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
